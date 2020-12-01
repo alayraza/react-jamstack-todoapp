@@ -1,0 +1,26 @@
+{
+  "name": "fauna-crud",
+  "version": "1.0.0",
+  "description": "netlify functions:create - CRUD functionality with Fauna DB",
+  "main": "graphql-gateway.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "netlify",
+    "serverless",
+    "js",
+    "faunadb"
+  ],
+  "author": "Netlify",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-link-http": "^1.5.17",
+    "apollo-server-lambda": "^2.19.0",
+    "dotenv": "^8.2.0",
+    "faunadb": "^3.0.1",
+    "graphql": "^14.7.0",
+    "graphql-tools": "^4.0.8",
+    "node-fetch": "^2.6.1"
+  }
+}
